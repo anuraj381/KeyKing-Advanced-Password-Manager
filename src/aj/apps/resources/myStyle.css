@@ -1,0 +1,60 @@
+.root{
+    -fx-background-color: #D8D8D8;
+    -fx-font-size: 10pt;
+}
+
+.button{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: #738b9a;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #738b9a;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.my-separator .line {
+    -fx-border-color: #738b9a ;
+    -fx-border-width: 1 1 1 1 ;
+}
+
+
+.list-cell{
+    -fx-text-fill: #738b9a;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.list-cell:filled:selected {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 2;
+    -fx-border-color: #738b9a;
+}
+
+.text-field{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: #738b9a;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+.table-view {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.text-field-table-cell .text-field {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 2;
+    -fx-border-color: #738b9a;
+}

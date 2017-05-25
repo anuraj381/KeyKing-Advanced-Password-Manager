@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ffmpeg-2.1.1-windows-x86_64">
+    <CLASSES>
+      <root url="jar://F:/cvJars/imports/ffmpeg-2.1.1-windows-x86_64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

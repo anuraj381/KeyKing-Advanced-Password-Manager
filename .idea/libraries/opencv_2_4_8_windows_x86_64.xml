@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="opencv-2.4.8-windows-x86_64">
+    <CLASSES>
+      <root url="jar://F:/cvJars/imports/opencv-2.4.8-windows-x86_64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

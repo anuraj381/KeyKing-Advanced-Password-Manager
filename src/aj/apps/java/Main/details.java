@@ -1,0 +1,63 @@
+package aj.apps.java.Main;
+
+/**
+ * This class is used to provide the entries/account details to be shown in the table in the client area
+ * @author Anuraj Jain
+ */
+public class details {
+
+    private String accname;
+    private String url;
+    private String username;
+    private String password;
+    private String hint;
+
+    public details(String accname, String url, String username, String password, String hint){
+        this.accname = accname;
+        this.url = url;
+        this.username = username;
+        this.password = password;
+        this.hint = hint;
+    }
+
+    public String getAccname() {
+        return accname;
+    }
+
+    public void setAccname(String accname) {
+        this.accname = accname;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getHint() {
+        return hint;
+    }
+
+    public void setHint(String hint) {
+        this.hint = hint;
+    }
+
+}
